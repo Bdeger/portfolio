@@ -8,66 +8,47 @@
     <title>Projet 1</title>
 </head>
 <body>
-    <nav class="general">
-        <img src="..\Portfolio\images\Logo.png" alt="Logo">
-
-        <div id="menu">
-            
-            <div class="elementMenu">
-                <a href="#HOME"> HOME </a>
-            </div>
-            <div class="elementMenu">
-                <a href="#COMPETENCES"> COMPETENCES </a>
-            </div>
-
-            <div class="elementMenu">
-                <a href="#PROJETS"> PROJETS </a>
-            </div>
-            <div class=elementMenu>
-                <a href="#PARCOURS"> PARCOURS </a> 
-
-            </div>
-            <div class="elementMenu">
-                <a href="#CONTACT"> CONTACT </a>
-            </div>
-        </div>
-        
+    <nav>
+        <ul>
+           <li><img src="images\Logo.png" alt="Logo"></li>
+            <li><a href="#HOME"> HOME </a></li>
+            <li><a href="#COMPETENCES"> COMPETENCES </a></li>
+            <li><a href="#PROJETS"> PROJETS </a></li>
+            <li><a href="#PARCOURS"> PARCOURS </a></li>
+            <li><a href="#CONTACT"> CONTACT </a></li>
+        </ul>
     </nav>
 
     <main>
-        <section class="GENERAL" id="HOME">
+        <section id="HOME">
            <div class="gauche">
-                <img src="images\id.png" alt="PhotoId">
+                <img id="photoPerso" src="images\id.png" alt="PhotoId">
                 <H1>Ma Presentation</H1>
                 <h2>Nom:DEGER</h2>
                 <h2>Prenom:Banu</h2>
                 <h3>Développeuse Web "Front End"</h3> 
             </div>
-            <div class="droite">
-                <img src="images/DeveloppeurWeb.png" alt="DeveloppeurWeb">
-            </div>
 
+            <div class="gauche">
+                <img id="devWeb" src="images/DeveloppeurWeb.png" alt="DeveloppeurWeb">
+            </div>
         </section>
 
-        <h1>COMPETENCES</h1>
-        <section class="GENERAL" id="COMPETENCES">
-            <div id="WEB">
+        
+        <section id="COMPETENCES">
+            <h1>COMPETENCES</h1>
+            <div class="haut"
                 <h2>WEB</h2>
                 <img src="images\htmlCss.png" alt="html5 et css3">
                 <img src="images\bootstrap.png" alt="bootstrap">
-            </div>
-
-            <div id="CMSetFRAMEWORK">
                 <h2>CMS et FRAMEWORK</h2>
                 <img src="images\wordpress.png" alt="wordpress">
                 <img src="images\symphony.png" alt="symphony">
             </div>
 
-            <div id="GestionnaireDeVue">
+            <div id="bas">
                 <h2>GESTIONNAIRE DE VUE</h2>
                 <img src="images/github.png" alt="github">
-            </div>
-            <div id="ProgrammationWeb">
                 <h2>PROGRAMMATION WEB</h2>
                 <img src="images/JS.png" alt="JavaScript">
                 <img src="images/LogoVuejs.png" alt="VueJs">
