@@ -54,10 +54,12 @@ ul li a:hover{
   text-align: center;
 }
 #devWeb{
+    display: flex;
     width: 90%;
     border-style: solid;
-    border-color: #580D3F;
+    border-color:white;
     border-width: thick;
+    border-radius:60%;
 }
 #photoPerso{
     width: 20%;
@@ -68,7 +70,11 @@ ul li a:hover{
     display: flex;
     margin-top: 140px;
     width: 100%;
-    background-color: white;
+    background-color:white;
+    border-style: solid;
+    border-color:#580D3F;
+    border-width:30px;
+
 }
 #COMPETENCES{
     display: flex;
